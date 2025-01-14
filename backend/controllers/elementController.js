@@ -1,4 +1,4 @@
-const Element = require('./models/Element');
+const Element = require('../models/Element');
 
 exports.getAllElements = async (req, res, next) => {
     try{
