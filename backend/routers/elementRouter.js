@@ -3,7 +3,7 @@ const router = express.Router();
 const elementController = require('../controllers/elementController');
 
 router.route('/').get(
-    elementController.findAll
+    elementController.getAllElements
 ).post(elementController.createElement);
 
 module.exports = router;

@@ -28,8 +28,8 @@ app.use((err,req, res, next) => {
 
 app.listen(PORT, () => {
     console.log(`======================================`);
-    console.log(`||          H O T E L E             ||`);
-    console.log(`||🦫 Server running on PORT ${PORT}     ||`);
+    console.log(`||          ChemPy Lab               ||`);
+    console.log(`|| 🦫 Server running                  ||`);
     console.log(`||       Made by                     ||`);
     console.log(`||       Mariusz Jacek               ||`);
     console.log(`||       Stanisław Fal               ||`);

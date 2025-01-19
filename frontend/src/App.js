@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Route, Routes, useNavigate} from 'react-router-dom';
+import {Route, BrowserRouter as Router, Routes, useNavigate} from 'react-router-dom';
 import Home from "./components/pages/Home";
 
 function App() {
@@ -20,10 +20,11 @@ function App() {
       {/*    Learn React*/}
       {/*  </a>*/}
       {/*</header>*/}
-
-      <Routes>
-        <Route exact path="/" component={<Home />} />
-      </Routes>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route  path="/" element={<Home />} />
+          <Route  path="/elements" element={<Home />} />
+        </Routes>
     </div>
   );
 }
